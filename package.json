@@ -1,0 +1,19 @@
+{
+  "name": "quest1-crawling-rpa",
+  "version": "1.0.0",
+  "description": "Quest 1: RPA Crawling - Auto extract PDF from Google Scholar using Puppeteer + Stealth",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "crawl": "node src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "node-fetch": "^2.7.0"
+  },
+  "keywords": ["puppeteer", "rpa", "crawling", "pdf", "google-scholar"],
+  "author": "",
+  "license": "MIT"
+}
